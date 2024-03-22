@@ -1,10 +1,14 @@
-title: no style, please! # name of the site
-author: Riccardo Graziosi # name of site's author
-email: riccardo.graziosi97@gmail.com # email of site's author
-url: https://riggraz.dev # root address of the site
+title: / digital beth # name of the site
+author: beth hollingsworth # name of site's author
+email: travelerschecks@gmail.com # email of site's author
+url: https://ghostmalls.github.io/ # root address of the site
 baseurl: "/no-style-please" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
-  A (nearly) no-CSS, fast, minimalist Jekyll theme.
+hi, i'm beth. 
+i'm 30, from louisiana.
+i love cats, computers, and coding.
+this site is where i'll  host random code i've written and other things i'm working on.
+say hi!
 
 permalink: /:slug.html
 

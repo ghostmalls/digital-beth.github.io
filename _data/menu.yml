@@ -2,15 +2,13 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: info
-    url: false
+  - title: home
+    url: https://ghostmalls.github.io/
     entries:
-      - title: a (nearly) no-CSS, fast, minimalist Jekyll theme.
+      - title: this site is where i'll  host random code i've written and other things i'm working on.
         url: false
-      - title: github
-        url: https://github.com/riggraz/no-style-please
-      - title: used by riggraz.dev
-        url: https://riggraz.dev/
+      - title: twitter
+        url: https://twitter.com/rulesofthirds
 
   - title: thoughts
     post_list: true
@@ -30,8 +28,3 @@ entries:
             url: false
           - title: example page
             url: about
-  - title: PRO TIP
-    url: false
-    entries:
-      - title: to edit this menu, edit _data/menu.yml file
-        url: false

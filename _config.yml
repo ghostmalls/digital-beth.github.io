@@ -1,7 +1,7 @@
 title: // digital beth # name of the site
 author: beth h # name of site's author
 email: travelerschecks@gmail.com # email of site's author
-url: https://ghostmalls.github.io/ # root address of the site
+url: ./ # root address of the site
 description: > # description of the site (multiple lines allowed)
   this site is where i'll host random code i've written and other things i'm working on.
 
@@ -25,5 +25,3 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-
-exclude: [code]

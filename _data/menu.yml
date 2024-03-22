@@ -23,6 +23,6 @@ entries:
     entries: false
 
   - title: posts by category
-    url: /categories
+    url: /category
 
 

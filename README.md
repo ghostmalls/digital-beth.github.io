@@ -1,0 +1,1 @@
+https://ghostmalls.github.io/

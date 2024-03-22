@@ -3,8 +3,7 @@ author: beth h # name of site's author
 email: travelerschecks@gmail.com # email of site's author
 url: https://ghostmalls.github.io/ # root address of the site
 description: > # description of the site (multiple lines allowed)
-  hi, i'm beth
-  and this is my blog
+  this site is where i'll host random code i've written and other things i'm working on.
 
 permalink: /:slug.html
 

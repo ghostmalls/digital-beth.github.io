@@ -7,4 +7,3 @@ gem "kramdown-parser-gfm"
 gemspec
 
 gem "no-style-please"
-gem 'disqus-for-jekyll'

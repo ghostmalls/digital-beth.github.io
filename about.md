@@ -1,11 +1,8 @@
 ---
 layout: page
-title: about
-permalink: /about/
+title: About
 ---
 
-hi, i'm beth. 
-i'm 30, from louisiana.
-i love cats, computers, and coding.
-this site is where i'll  host random code i've written and other things i'm working on.
-say hi!
+This is an example page!
+
+It's very similar to a `post` layout, with the only difference that the publish date is not shown!

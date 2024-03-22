@@ -2,10 +2,11 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: home
-    url: https://ghostmalls.github.io/
+  - title: about
+    url: /about
     entries:
       - title: where to find me;
+        url: false
       - title: twitter
         url: https://twitter.com/rulesofthirds
       - title: tumblr

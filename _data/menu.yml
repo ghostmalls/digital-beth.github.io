@@ -4,18 +4,19 @@
 entries:
   - title: home
     url: https://ghostmalls.github.io/
-  - title: twitter
-    url: https://twitter.com/rulesofthirds
-  - title: tumblr
-    url: https://mellowjackets.tumblr.com/   
-  - title: instagram
-    url: https://www.instagram.com/afterlifedating.mp3/  
-  - title:
-    url:   
-  - title:
-    url:   
-  - title:
-    url:   
+    entries:
+      - title: twitter
+        url: https://twitter.com/rulesofthirds
+      - title: tumblr
+        url: https://mellowjackets.tumblr.com/   
+      - title: instagram
+        url: https://www.instagram.com/afterlifedating.mp3/  
+      - title:
+        url:   
+      - title:
+        url:   
+      - title:
+        url:   
 
   - title: thoughts
     post_list: true

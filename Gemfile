@@ -6,5 +6,5 @@ gem "kramdown-parser-gfm"
 
 gemspec
 
-gem "no-style-please"
+gem 'no-style-please', '~> 0.4.7'
 gem 'rouge'

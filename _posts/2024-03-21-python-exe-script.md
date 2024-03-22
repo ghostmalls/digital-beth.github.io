@@ -9,8 +9,40 @@ categories: [code, python]
 
 running this script will output shortcuts in their own folder. don't forget to edit the directories to suit your needs.
 
-```html
-import os
+<script>function copyCode(button) {
+    var codeBlock = button.previousElementSibling;
+    var code = codeBlock.innerText || codeBlock.textContent;
+    
+    // Create a temporary textarea element
+    var tempTextarea = document.createElement('textarea');
+    tempTextarea.value = code;
+    
+    // Append the textarea to the document
+    document.body.appendChild(tempTextarea);
+    
+    // Select the text inside the textarea
+    tempTextarea.select();
+    tempTextarea.setSelectionRange(0, 99999); /* For mobile devices */
+    
+    // Copy the selected text
+    document.execCommand('copy');
+    
+    // Remove the temporary textarea
+    document.body.removeChild(tempTextarea);
+    
+    // Change the button text to indicate successful copying
+    button.innerText = 'copied!';
+    
+    // Reset button text after 2 seconds
+    setTimeout(function() {
+        button.innerText = 'copy';
+    }, 2000);
+}
+</script>
+
+<div class="code-snippet">
+    <pre><code>
+    import os
 import shutil
 import winshell
 
@@ -48,4 +80,6 @@ def create_shortcuts(directory):
 print("Creating shortcuts...")
 create_shortcuts(scan_directory)
 print("Shortcut creation complete.")
-```
+    </code></pre>
+    <button class="copy-button" onclick="copyCode(this)">Copy</button>
+</div>

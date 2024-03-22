@@ -2,3 +2,49 @@
 ---
 
 @import "no-style-please";
+
+.code-snippet {
+    position: relative;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+pre {
+    overflow: auto; /* Add scrollbar when content exceeds container size */
+    max-height: auto; /* Set max-height to enable scrollbar */
+    margin: 0; /* Remove default margin */
+}
+
+.copy-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 5px 10px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+div.highlighter-rouge code {
+    display: block;
+    overflow-x: auto;
+    padding: 1rem;
+  }
+  
+  blockquote {
+    font-style: italic;
+    border: thin solid black;
+    padding: 1rem;
+  
+    p { margin: 0; }
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+

@@ -27,3 +27,5 @@ plugins:
 
 highlighter: rouge
 highlighter_theme: solarized-dark
+
+exclude: [code]

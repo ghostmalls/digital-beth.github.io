@@ -2,13 +2,9 @@
 layout: post
 title: "python script to create shortcuts from all .exe in a folder"
 categories: code
-author: "beth h"
 date: 2024-03-21
 categories: [code, python]
 ---
-
-running this script will output shortcuts in their own folder. don't forget to edit the directories to suit your needs.
-
 <script>function copyCode(button) {
     var codeBlock = button.previousElementSibling;
     var code = codeBlock.innerText || codeBlock.textContent;
@@ -39,6 +35,8 @@ running this script will output shortcuts in their own folder. don't forget to e
     }, 2000);
 }
 </script>
+
+running this script will output shortcuts in their own folder. don't forget to edit the directories to suit your needs.
 
 <div class="code-snippet">
     <pre><code>

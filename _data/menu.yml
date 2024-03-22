@@ -5,8 +5,6 @@ entries:
   - title: about
     url: /about
     entries:
-      - title: where to find me;
-        url: false
       - title: twitter
         url: https://twitter.com/rulesofthirds
       - title: tumblr

@@ -9,7 +9,7 @@ categories: [code, python]
 
 running this script will output shortcuts in their own folder. don't forget to edit the directories to suit your needs.
 
-```html
+{% highlight python %}
 
 import os
 import shutil
@@ -50,4 +50,4 @@ print("Creating shortcuts...")
 create_shortcuts(scan_directory)
 print("Shortcut creation complete.")
 
-```
+{% highlight %}

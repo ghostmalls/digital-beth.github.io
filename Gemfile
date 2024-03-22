@@ -6,4 +6,3 @@ gem "kramdown-parser-gfm"
 
 gemspec
 
-gem "no-style-please"

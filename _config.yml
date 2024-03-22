@@ -27,6 +27,3 @@ plugins:
 
 highlighter: rouge
 highlighter_theme: base16.monokai.dark
-kramdown:
-  syntax_highlighter: rouge
-  input: GFM

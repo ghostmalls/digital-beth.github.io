@@ -4,7 +4,7 @@ title: "python script to create shortcuts from all .exe in a folder"
 categories: code
 author: "beth h"
 date: 03 22 2024
-categories: [coding, python]
+categories: [code, python]
 ---
 
 running this script will output shortcuts in their own folder. don't forget to edit the directories to suit your needs.

@@ -1,10 +1,12 @@
 ---
 layout: post
-title: "My First Post"
-date: 2024-03-22 12:09:00
+title: "test test test"
+categories: code
+author: "beth h"
+date: 03 22 2024
 categories: [thoughts]
 ---
 
 
 
-testing
+is this thing on?

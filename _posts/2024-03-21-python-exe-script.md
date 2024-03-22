@@ -9,8 +9,7 @@ categories: [code, python]
 
 running this script will output shortcuts in their own folder. don't forget to edit the directories to suit your needs.
 
-{% highlight python %}
-
+```html
 import os
 import shutil
 import winshell
@@ -49,5 +48,4 @@ def create_shortcuts(directory):
 print("Creating shortcuts...")
 create_shortcuts(scan_directory)
 print("Shortcut creation complete.")
-
-{% highlight %}
+```

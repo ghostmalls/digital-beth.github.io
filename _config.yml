@@ -39,8 +39,8 @@ minima:
 # this and add the path to the pages in order as they should show up
 #header_pages:
 # - about.html
-title: [hello]
-description: [this site is where i'll  host random code i've written and other things i'm working on.]
+title: hello
+description: this site is where i'll  host random code i've written and other things i'm working on.
 # Build settings
 theme: minima
 

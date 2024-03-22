@@ -3,3 +3,18 @@ layout: categories
 title: categories
 permalink: /categories/
 ---
+
+<ul>
+  {% for category in site.categories %}
+    <li><a href="#{{ category[0] }}">{{ category[0] }}</a></li>
+  {% endfor %}
+</ul>
+
+{% for category in site.categories %}
+  <h2 id="{{ category[0] }}">{{ category[0] }}</h2>
+  <ul>
+    {% for post in category[1] %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}

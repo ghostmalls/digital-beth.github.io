@@ -6,8 +6,6 @@ author: "beth h"
 meta: "python"
 ---
 
-### the code:
-
 running this script will output shortcuts in their own folder. don't forget to edit the directories to suit your needs.
 
 ```html

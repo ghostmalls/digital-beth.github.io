@@ -25,7 +25,5 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-highlighter: rouge
-highlighter_theme: solarized-dark
 
 exclude: [code]

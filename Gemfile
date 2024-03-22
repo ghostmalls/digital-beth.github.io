@@ -6,3 +6,4 @@ gem "kramdown-parser-gfm"
 
 gem "no-style-please"
 gem "webrick"
+gem "rouge"

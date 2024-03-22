@@ -3,7 +3,7 @@ layout: post
 title: "python script to create shortcuts from all .exe in a folder"
 categories: code
 author: "beth h"
-date: 03 22 2024
+date: 2024-03-21
 categories: [code, python]
 ---
 

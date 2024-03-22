@@ -2,7 +2,7 @@
 layout: post
 title: "test test test"
 author: "beth h"
-date: 03 22 2024
+date: 2024-03-22
 categories: thoughts
 ---
 

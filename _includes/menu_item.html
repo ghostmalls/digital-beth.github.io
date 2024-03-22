@@ -1,26 +1,19 @@
 <ul>
-  {%-for item in include.collection-%}
+  {% for item in include.collection %}
     <li>
-    {%- if item.url -%}
+    {% if item.url != false %}
       <a href="{{ item.url }}">{{ item.title }}</a>
-    {%- else -%}
+    {% else %}
       {{ item.title }}
-    {%- endif -%}
+    {% endif %}
     </li>
 
-    {%-if item.post_list-%}
-      {%
-        include post_list.html
-          category=item.post_list.category
-          limit=item.post_list.limit
-          show_more=item.post_list.show_more
-          show_more_text=item.post_list.show_more_text
-          show_more_url=item.post_list.show_more_url
-     -%}
-    {%-endif-%}
+    {% if item.post_list == true %}
+      {% include post_list.html %}
+    {% endif %}
 
-    {%-if item.entries-%}
-      {%-include menu_item.html collection=item.entries-%}
-    {%-endif-%}
-  {%-endfor-%}
+    {% if item.entries != blank %}        
+      {% include menu_item.html collection=item.entries %}
+    {% endif %}
+  {% endfor %}
 </ul>

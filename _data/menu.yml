@@ -5,17 +5,18 @@ entries:
   - title: home
     url: https://ghostmalls.github.io/
     entries:
+      - title: where to find me;
       - title: twitter
         url: https://twitter.com/rulesofthirds
       - title: tumblr
         url: https://mellowjackets.tumblr.com/   
       - title: instagram
         url: https://www.instagram.com/afterlifedating.mp3/  
-      - title:
-        url:   
-      - title:
-        url:   
-      - title:
+      - title: threads
+        url: https://www.threads.net/@afterlifedating.mp3
+      - title: mastodon
+        url: https://goblin.camp/@beth 
+      - title: 
         url:   
 
   - title: thoughts
@@ -23,16 +24,4 @@ entries:
     url: false
     entries: false
 
-  - title: rss
-    url: feed.xml
-  
-  - title: another list
-    url: false
-    entries:
-      - title: with subitems
-        url: false
-        entries:
-          - title: with subsubitems
-            url: false
-          - title: example page
-            url: about
+

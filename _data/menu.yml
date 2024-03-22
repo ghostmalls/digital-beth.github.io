@@ -17,14 +17,12 @@ entries:
         url: https://goblin.camp/@beth 
 
 
-entries:
-  - title: posts by category
-    url: /categories
-
-
   - title: thoughts
     post_list: true
     url: /archive
     entries: false
+
+  - title: posts by category
+    url: /categories
 
 

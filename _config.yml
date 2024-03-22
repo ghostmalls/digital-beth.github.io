@@ -41,6 +41,7 @@ minima:
 # - about.html
 title: hello
 description: this site is where i'll  host random code i've written and other things i'm working on.
+exclude: [POSTS]
 # Build settings
 theme: minima
 

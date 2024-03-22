@@ -1,9 +1,6 @@
 # For documentation on this file, see:
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
-entries:
-  - title: info
-    entries:
       - title: this site is where i'll  host random code i've written and other things i'm working on.
 
   - title: all posts

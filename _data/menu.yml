@@ -15,14 +15,14 @@ entries:
         url: https://www.threads.net/@afterlifedating.mp3
       - title: mastodon
         url: https://goblin.camp/@beth 
+      - title: steam
+        url: https://steamcommunity.com/id/wheredthesodago/
 
 
   - title: thoughts
     post_list: true
-    url: /archive
+    url: /categories
     entries: false
 
-  - title: posts by category
-    url: /categories
 
 

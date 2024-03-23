@@ -5,6 +5,8 @@ entries:
   - title: about
     url: /about
     entries:
+      - title: github
+        url: https://github.com/ghostmalls
       - title: twitter
         url: https://twitter.com/rulesofthirds
       - title: tumblr
